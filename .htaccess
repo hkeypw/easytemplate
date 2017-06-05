@@ -1,0 +1,4 @@
+# ErrorDocument 404 
+# Запрет выдачи листинга пустого каталога
+Options -Indexes
+AddDefaultCharset utf-8

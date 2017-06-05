@@ -1,0 +1,15 @@
+default:
+  - 'newer:less'
+  - 'newer:autoprefixer'
+  - 'newer:cssmin'
+  - 'newer:concat'
+  - 'newer:uglify'
+  - 'watch'
+less2css:
+  - 'less'
+  - 'autoprefixer'
+minijs:
+  - 'concat'
+  - 'uglify'
+minicss:
+  - 'cssmin'
